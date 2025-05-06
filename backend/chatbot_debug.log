@@ -1,0 +1,2111 @@
+Request data: Array
+(
+    [message] => مرحبًا!
+)
+
+Request data: Array
+(
+    [message] => مرحبًا!
+)
+
+Request data: Array
+(
+    [message] => مرحبًا
+)
+
+API Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+Request data: Array
+(
+    [message] => مرحبًا!
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "مرحباً بك! كيف يمكنني مساعدتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.023991850706247184
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 74,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 87,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 74
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => مرحباً بك! كيف يمكنني مساعدتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.023991850706247
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 74
+            [candidatesTokenCount] => 13
+            [totalTokenCount] => 87
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 74
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 13
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => slm
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "وعليكم السلام! أهلاً بك في متجرنا. كيف يمكنني مساعدتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.052731285924496857
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 72,
+    "candidatesTokenCount": 23,
+    "totalTokenCount": 95,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 72
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 23
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => وعليكم السلام! أهلاً بك في متجرنا. كيف يمكنني مساعدتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.052731285924497
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 72
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 95
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 72
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 23
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => xno kaian fi had lmatjar
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! نعم، لدينا مجموعة متنوعة من الكيان. هل تبحث عن نوع معين؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.20318836212158203
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 79,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 104,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 25
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! نعم، لدينا مجموعة متنوعة من الكيان. هل تبحث عن نوع معين؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.20318836212158
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 79
+            [candidatesTokenCount] => 25
+            [totalTokenCount] => 104
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 79
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 25
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => 2orido 2an 2a3lama kolla l3orod lmotawajida fi law9
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! يمكنك الاطلاع على جميع العروض المتوفرة حالياً في قسم العروض الخاص في المتجر، أو زيارة موقعنا الإلكتروني. هل تبحث عن عرض محدد؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.17186095601036436
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 94,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 136,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 94
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 42
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! يمكنك الاطلاع على جميع العروض المتوفرة حالياً في قسم العروض الخاص في المتجر، أو زيارة موقعنا الإلكتروني. هل تبحث عن عرض محدد؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.17186095601036
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 94
+            [candidatesTokenCount] => 42
+            [totalTokenCount] => 136
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 94
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 42
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => slm momkin t9ol lya l3orod lli 3andkom
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! حالياً، ليس لدينا عروض محددة. يمكنك تصفح متجرنا لرؤية جميع المنتجات المتوفرة، مثل \"Veste en jean crochetée\" في قسم \"Homme\". قد تجد شيئًا يعجبك!\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.23907424722399032
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 327,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 383,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 327
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 56
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! حالياً، ليس لدينا عروض محددة. يمكنك تصفح متجرنا لرؤية جميع المنتجات المتوفرة، مثل "Veste en jean crochetée" في قسم "Homme". قد تجد شيئًا يعجبك!
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.23907424722399
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 327
+            [candidatesTokenCount] => 56
+            [totalTokenCount] => 383
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 327
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 56
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => Veste en jean crochetée 2orido 2an 2araha
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك في متجر jeancro! يسعدني مساعدتك. كيف يمكنني خدمتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.097646503448486327
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 327,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 352,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 327
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 25
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك في متجر jeancro! يسعدني مساعدتك. كيف يمكنني خدمتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.097646503448486
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 327
+            [candidatesTokenCount] => 25
+            [totalTokenCount] => 352
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 327
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 25
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => Veste en jean crochetée
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك في متجر jeancro! يسعدني مساعدتك.\n\nكيف يمكنني خدمتك اليوم؟ هل تبحث عن منتج معين أم لديك سؤال حول المتجر؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.13013160796392531
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 316,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 358,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 316
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 42
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك في متجر jeancro! يسعدني مساعدتك.
+
+كيف يمكنني خدمتك اليوم؟ هل تبحث عن منتج معين أم لديك سؤال حول المتجر؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.13013160796393
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 316
+            [candidatesTokenCount] => 42
+            [totalTokenCount] => 358
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 316
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 42
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => 2orido 2an 2ara Veste en jean crochetée
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك!\n\nلدينا \"Veste en jean crochetée\" متوفرة في قسم \"Homme\" بالمقاسات S و M بسعر 199.98 درهم. هل تود معرفة المزيد عنها أو إضافتها إلى سلة مشترياتك؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.18641059629378781
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 325,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 387,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 325
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 62
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك!
+
+لدينا "Veste en jean crochetée" متوفرة في قسم "Homme" بالمقاسات S و M بسعر 199.98 درهم. هل تود معرفة المزيد عنها أو إضافتها إلى سلة مشترياتك؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.18641059629379
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 325
+            [candidatesTokenCount] => 62
+            [totalTokenCount] => 387
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 325
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 62
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => na3am
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك في متجر jeancro! يسعدني مساعدتك. كيف يمكنني خدمتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.067805271148681637
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 313,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 338,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 313
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 25
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك في متجر jeancro! يسعدني مساعدتك. كيف يمكنني خدمتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.067805271148682
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 313
+            [candidatesTokenCount] => 25
+            [totalTokenCount] => 338
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 313
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 25
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => ma ljadid
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "مرحباً! حالياً المتجر يعرض \"Veste en jean crochetée\" للرجال بمقاسات S و M بسعر 199.98 درهم. هل تبحث عن شيء معين؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.29962354898452759
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 579,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 627,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 579
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 48
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => مرحباً! حالياً المتجر يعرض "Veste en jean crochetée" للرجال بمقاسات S و M بسعر 199.98 درهم. هل تبحث عن شيء معين؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.29962354898453
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 579
+            [candidatesTokenCount] => 48
+            [totalTokenCount] => 627
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 579
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 48
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => ma ljadid
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك في متجر jeancro! \n\nلدينا حالياً \"Veste en jean crochetée\" للرجال بسعر 199.98 درهم، متوفرة بمقاسي S و M. تفضل بتصفح قسم \"Homme\" في المتجر لرؤية المزيد!\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.22786409204656427
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 579,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 645,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 579
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 66
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك في متجر jeancro! 
+
+لدينا حالياً "Veste en jean crochetée" للرجال بسعر 199.98 درهم، متوفرة بمقاسي S و M. تفضل بتصفح قسم "Homme" في المتجر لرؤية المزيد!
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.22786409204656
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 579
+            [candidatesTokenCount] => 66
+            [totalTokenCount] => 645
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 579
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 66
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => hal iomkinoni 2i3takom jacket
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "مرحباً! نعم، لدينا \"Veste en jean crochetée\" في قسم الرجال. سعرها 199.98 درهم، ومتوفرة بمقاسات S و M. هل تبحث عن مقاس معين؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.15817810938908503
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 587,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 639,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 587
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 52
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => مرحباً! نعم، لدينا "Veste en jean crochetée" في قسم الرجال. سعرها 199.98 درهم، ومتوفرة بمقاسات S و M. هل تبحث عن مقاس معين؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.15817810938909
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 587
+            [candidatesTokenCount] => 52
+            [totalTokenCount] => 639
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 587
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 52
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => hal iomkinoni 2an 2orsila lakom jacket li 3amal lcrochet 3alaiha
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! نعم بالطبع يمكنك إرسال جاكيت لعمل الكروشيه عليها. إليك التفاصيل:\n\n*   **السعر:** 250 درهم\n*   **كيفية الاستفادة من الخدمة:**\n    1.  يمكنك الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.\n    2.  يمكنك إرسال الجاكيت إلى العنوان المذكور في الموقع (غير متوفر حالياً، يرجى الاتصال بنا للحصول عليه).\n    3.  يمكنك زيارتنا مباشرة في متجرنا لتقديم الجاكيت.\n*   **المدة:** تتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب.\n*   **التصميم:** يمكنك اختيار الألوان والتصاميم المفضلة لديك.\n\nلا تتردد في الاتصال بنا إذا كان لديك أي أسئلة أخرى!\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.09424169298628686
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 600,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 813,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 600
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 213
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! نعم بالطبع يمكنك إرسال جاكيت لعمل الكروشيه عليها. إليك التفاصيل:
+
+*   **السعر:** 250 درهم
+*   **كيفية الاستفادة من الخدمة:**
+    1.  يمكنك الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.
+    2.  يمكنك إرسال الجاكيت إلى العنوان المذكور في الموقع (غير متوفر حالياً، يرجى الاتصال بنا للحصول عليه).
+    3.  يمكنك زيارتنا مباشرة في متجرنا لتقديم الجاكيت.
+*   **المدة:** تتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب.
+*   **التصميم:** يمكنك اختيار الألوان والتصاميم المفضلة لديك.
+
+لا تتردد في الاتصال بنا إذا كان لديك أي أسئلة أخرى!
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.094241692986287
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 600
+            [candidatesTokenCount] => 213
+            [totalTokenCount] => 813
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 600
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 213
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => en francer
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Bonjour ! Comment puis-je vous aider aujourd'hui ?\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.14842075567979079
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 578,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 591,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 578
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Bonjour ! Comment puis-je vous aider aujourd'hui ?
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.14842075567979
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 578
+            [candidatesTokenCount] => 13
+            [totalTokenCount] => 591
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 578
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 13
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => en francer :"أهلاً بك! نعم بالطبع يمكنك إرسال جاكيت لعمل الكروشيه عليها. إليك التفاصيل: * **السعر:** 250 درهم * **كيفية الاستفادة من الخدمة:** 1. يمكنك الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق. 2. يمكنك إرسال الجاكيت إلى العنوان المذكور في الموقع (غير متوفر حالياً، يرجى الاتصال بنا للحصول عليه). 3. يمكنك زيارتنا مباشرة في متجرنا لتقديم الجاكيت. * **المدة:** تتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب. * **التصميم:** يمكنك اختيار الألوان والتصاميم المفضلة لديك. لا تتردد في الاتصال بنا إذا كان لديك أي أسئلة أخرى!"
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً وسهلاً بك في متجر jeancro! كيف يمكنني مساعدتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.027195307341488926
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 773,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 795,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 773
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 22
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً وسهلاً بك في متجر jeancro! كيف يمكنني مساعدتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.027195307341489
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 773
+            [candidatesTokenCount] => 22
+            [totalTokenCount] => 795
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 773
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 22
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => bonjour quelle est votre service que tu peux donne
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! نقدم خدمة الكروشيه للجاكيتات التي تحضرها أنت. سعر الخدمة هو 250 درهم. يمكنك الاتصال بنا على +212 633-086519 للتنسيق أو إرسال الجاكيت إلى عنواننا أو زيارتنا في المتجر. تستغرق الخدمة بين 3-7 أيام. يمكنك اختيار الألوان والتصاميم التي تفضلها. هل لديك أي أسئلة أخرى؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.12797692086961535
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 584,
+    "candidatesTokenCount": 108,
+    "totalTokenCount": 692,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 584
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 108
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! نقدم خدمة الكروشيه للجاكيتات التي تحضرها أنت. سعر الخدمة هو 250 درهم. يمكنك الاتصال بنا على +212 633-086519 للتنسيق أو إرسال الجاكيت إلى عنواننا أو زيارتنا في المتجر. تستغرق الخدمة بين 3-7 أيام. يمكنك اختيار الألوان والتصاميم التي تفضلها. هل لديك أي أسئلة أخرى؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.12797692086962
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 584
+            [candidatesTokenCount] => 108
+            [totalTokenCount] => 692
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 584
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 108
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => rependre en francais
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Bien sûr ! Comment puis-je vous aider aujourd'hui ? N'hésitez pas à me poser vos questions sur nos produits, nos services ou les politiques du magasin.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.34602309635707312
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 581,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 616,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 581
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Bien sûr ! Comment puis-je vous aider aujourd'hui ? N'hésitez pas à me poser vos questions sur nos produits, nos services ou les politiques du magasin.
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.34602309635707
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 581
+            [candidatesTokenCount] => 35
+            [totalTokenCount] => 616
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 581
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 35
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => bonjour quelle est votre service que tu peux donne
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! نقدم خدمة كروشيه مميزة للجاكيتات التي تحضرونها. سعر الخدمة هو 250 درهم.\n\nللاستفادة من الخدمة:\n\n1.  يمكنكم الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.\n2.  يمكنكم إرسال الجاكيت إلى العنوان المذكور في الموقع.\n3.  يمكنكم زيارتنا مباشرة في متجرنا لتقديم الجاكيت.\n\nتتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب، ويمكنكم اختيار الألوان والتصاميم المفضلة لديكم. هل لديك أي أسئلة أخرى؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.063040218931255915
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 584,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 749,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 584
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 165
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! نقدم خدمة كروشيه مميزة للجاكيتات التي تحضرونها. سعر الخدمة هو 250 درهم.
+
+للاستفادة من الخدمة:
+
+1.  يمكنكم الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.
+2.  يمكنكم إرسال الجاكيت إلى العنوان المذكور في الموقع.
+3.  يمكنكم زيارتنا مباشرة في متجرنا لتقديم الجاكيت.
+
+تتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب، ويمكنكم اختيار الألوان والتصاميم المفضلة لديكم. هل لديك أي أسئلة أخرى؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.063040218931256
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 584
+            [candidatesTokenCount] => 165
+            [totalTokenCount] => 749
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 584
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 165
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => slm
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "وعليكم السلام! أهلاً بك في متجر jeancro. كيف يمكنني مساعدتك اليوم؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.049236491322517395
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 577,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 601,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 577
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => وعليكم السلام! أهلاً بك في متجر jeancro. كيف يمكنني مساعدتك اليوم؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.049236491322517
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 577
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 601
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 577
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 24
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => hal iomkinoka 2an tokhbirani bi ljadid
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! لدينا الآن \"Veste en jean crochetée\" للرجال بمقاسات S و M بسعر 199.98 درهم. يمكنك تصفح قسم \"Homme\" في المتجر للاطلاع على المزيد. هل هناك شيء آخر يمكنني مساعدتك فيه؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.18313010533650717
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 591,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 657,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 591
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 66
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! لدينا الآن "Veste en jean crochetée" للرجال بمقاسات S و M بسعر 199.98 درهم. يمكنك تصفح قسم "Homme" في المتجر للاطلاع على المزيد. هل هناك شيء آخر يمكنني مساعدتك فيه؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.18313010533651
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 591
+            [candidatesTokenCount] => 66
+            [totalTokenCount] => 657
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 591
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 66
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+
+Request data: Array
+(
+    [message] => hal iomkinoni ta9dim jacketlakom li 3amal crochet laha
+)
+
+Calling API URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "أهلاً بك! نعم، يمكننا عمل كروشيه للجاكيت الخاص بك. سعر الخدمة هو 250 درهم. يمكنك الاستفادة من هذه الخدمة بإحدى الطرق التالية:\n\n1.  الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.\n2.  إرسال الجاكيت إلى العنوان المذكور في الموقع.\n3.  زيارتنا مباشرة في متجرنا لتقديم الجاكيت.\n\nتتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب، ويمكنك اختيار الألوان والتصاميم المفضلة لديك. هل لديك أي أسئلة أخرى؟\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.079707955414394169
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 593,
+    "candidatesTokenCount": 159,
+    "totalTokenCount": 752,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 593
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 159
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+
+Parsed response: Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => أهلاً بك! نعم، يمكننا عمل كروشيه للجاكيت الخاص بك. سعر الخدمة هو 250 درهم. يمكنك الاستفادة من هذه الخدمة بإحدى الطرق التالية:
+
+1.  الاتصال بنا على رقم الهاتف +212 633-086519 للتنسيق.
+2.  إرسال الجاكيت إلى العنوان المذكور في الموقع.
+3.  زيارتنا مباشرة في متجرنا لتقديم الجاكيت.
+
+تتراوح مدة إنجاز الكروشيه بين 3-7 أيام حسب التصميم المطلوب، ويمكنك اختيار الألوان والتصاميم المفضلة لديك. هل لديك أي أسئلة أخرى؟
+
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [avgLogprobs] => -0.079707955414394
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 593
+            [candidatesTokenCount] => 159
+            [totalTokenCount] => 752
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 593
+                        )
+
+                )
+
+            [candidatesTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 159
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.0-flash
+)
+

@@ -1,0 +1,8 @@
+2025-05-06 12:24:13 - Error: API request failed with status code: 404, Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+

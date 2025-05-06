@@ -95,6 +95,7 @@ $cart_count = count($cart_items);
                 
                 <nav class="hidden md:flex space-x-6 rtl:space-x-reverse">
                     <a href="index.php" class="text-gray-700 hover:text-blue-600">الرئيسية</a>
+                    <a href="chatbot.php" class="text-gray-700 hover:text-blue-600">المساعد الذكي</a>
                     <a href="#about" class="text-gray-700 hover:text-blue-600">من نحن</a>
                     <a href="#contact" class="text-gray-700 hover:text-blue-600">اتصل بنا</a>
                 </nav>
@@ -594,4 +595,4 @@ $cart_count = count($cart_items);
         });
     </script>
 </body>
-</html> 
+</html>
